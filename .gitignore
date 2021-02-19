@@ -1,2 +1,26 @@
+# basic
+*.swp
+.DS_Store
+.gdb_history
+peda-session-*
+objdump
+.vscode
+node_modules
+
 # remove challenges.re
 challenges.re/*
+
+# pass all files of ida
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.idb
+
+# python related
+*.pyc
+__pycache__
+*.sage.py
+
