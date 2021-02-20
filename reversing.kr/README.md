@@ -11,7 +11,7 @@
 - [ ] [Direct3D FPS]()
 - [ ] [Ransomware]()
 - [ ] [Twist1]()
-- [ ] [Easy ELF]()
+- [x] [Easy ELF](./EasyELF/README.md)
 - [ ] [WindowsKernel]()
 - [ ] [AutoHotkey1]()
 - [x] [CSHOP](./CSHOP/README.md)
