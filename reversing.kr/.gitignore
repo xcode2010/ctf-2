@@ -1,2 +1,4 @@
 *.zip
-*.txt
+ReadMe.txt
+*.bin
+src
