@@ -1,7 +1,7 @@
 # Music Player
 
 根據提示需要使 bypass 所有 `1-minute-check-routine` 才能得到 flag。  
-用 **detect it easy** 可以發現是用 `Visual Basic` 寫的，可以利用 **VB Decompiler** decompile，可以發現 `TMR_POS_Timer_4044C0` 的函式，可以看到有關於 ***60000*** 的判斷，直接將 `jl (2 bytes)` patch 成  `jmp (1 byte)`（將缺少的 1 byte 補為 `nop`），重新執行卻會發現在播到一分鐘時，跳出 
+用 **detect it easy** 可以發現是用 `Visual Basic` 寫的，可以利用 **VB Decompiler** decompile，可以發現 `TMR_POS_Timer_4044C0` 的函式，可以看到有關於 ***60000*** 的判斷，直接將 `jl (2 bytes)` patch 成  `jmp (1 byte)`（將缺少的 1 byte 補為 `nop`），重新執行卻會發現在播到一分鐘時，跳出 
 ```
 Run-time error: '380':
 Invalid property value

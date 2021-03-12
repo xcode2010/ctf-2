@@ -1,5 +1,5 @@
 # Reversing.Kr
-> Files needed for each challenge can be downloaded at (reversing.kr)[http://reversing.kr/challenge.php].
+> Files needed for each challenge can be downloaded at [reversing.kr](http://reversing.kr/challenge.php).
 
 ## Map
 - [x] [Easy Crack](./EasyCrack/README.md)
@@ -10,7 +10,7 @@
 - [x] [ImagePrc](./ImagePrc/README.md)
 - [x] [Position](./Position/README.md)
 - [ ] [Direct3D FPS]()
-- [ ] [Ransomware]()
+- [x] [Ransomware](./Ransomware/README.md)
 - [ ] [Twist1]()
 - [x] [Easy ELF](./EasyELF/README.md)
 - [ ] [WindowsKernel]()
